@@ -1,8 +1,13 @@
-p {
+p, h1 {
   color: blue;
   background-color: yellow;
 }
 
 td.sr{
     background-color: rgb(12, 174, 233);
+}
+
+h1#textounico{
+  color: blueviolet;
+  background-color: green;
 }

@@ -1,0 +1,20 @@
+/*Selector universal*/
+*{
+    background-color: yellow;
+}
+
+/*Selector de etiqueta*/
+
+h1{
+    background-color: green;
+}
+
+/*Selector de clase*/
+p.fondoazul{
+    background-color: blue;
+}
+
+/*Selector de id*/
+p#uniconaranja{
+    background-color: orange;
+}

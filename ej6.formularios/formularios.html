@@ -6,12 +6,16 @@
     <title>Formularios</title>
   </head>
   <body>
-    <h1>Formulario</h1>
+    <h1>Formulario 1</h1>
     <form action="">
-      <label for="">Nombre <input type="text" minlength="4"  maxlength="15" required placeholder="Indica tu nombre" /></label>
-      <label for="">Apellidos <input type="text" /></label>
-      <label for="">Edad <input type="number" min="18" max="100"/></label>
-      <label for="">Teléfono <input type="tel" /></label>
+      <label for="nom">Nombre <input type="text" minlength="4"  maxlength="15" required placeholder="Indica tu nombre" id="nom" /></label>
+      <label for="ape">Apellidos <input type="text" id="ape" /></label>
+      <label for="edad">Edad </label>
+      <input type="number" min="18" max="100" id="edad"/>
+
+      <label for="tel">Teléfono </label>
+      <input type="tel" id="tel"/>
+
       <label for="">Sitio web <input type="url" /></label>
       <label for="">Color favorito<input type="color" name="colorfavorito" id="" value="#749267"></label>
       <label for="">Email <input type="email" /></label>
@@ -67,12 +71,20 @@
      </label>
      
     <p>Otra información</p>
-    <label for="">
-        <textarea name="masinfo" id="masinfo" rows="5" cols="60"></textarea>
+    <label for="masinfo">
+        <textarea name="masinfo" id="masinfo" rows="5" cols="60" id="masinfo"></textarea>
     </label>
 
       <input type="submit" />
       <input type="reset" value="Resetear"/>
     </form>
+
+    <h1>Formualario2 </h1>
+    <form action="">
+        <label>Edad <input type="number"></label> 
+
+      <input type="submit" value="Enviar2">
+    </form>
+
   </body>
 </html>
