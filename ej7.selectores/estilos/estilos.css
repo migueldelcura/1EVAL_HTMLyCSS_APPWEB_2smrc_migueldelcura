@@ -9,6 +9,12 @@ h1{
     background-color: green;
 }
 
+footer{
+    border: green double 15px;
+    border-radius: 35px;
+
+}
+
 /*Selector de clase*/
 p.fondoazul{
     background-color: blue;
@@ -17,4 +23,13 @@ p.fondoazul{
 /*Selector de id*/
 p#uniconaranja{
     background-color: orange;
+}
+
+/*Selector descendiente*/
+footer p{
+  color: red;  
+}
+
+ol{
+    padding-left: 0;
 }

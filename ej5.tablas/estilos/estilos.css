@@ -1,6 +1,12 @@
+body{
+  margin:0;
+}
+
+
 p, h1 {
   color: blue;
   background-color: yellow;
+  width: 50%;
 }
 
 td.sr{
@@ -10,4 +16,18 @@ td.sr{
 h1#textounico{
   color: blueviolet;
   background-color: green;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 300px;
+}
+td{
+  text-align: center;
+}
+
+tr.recreo{
+  padding: 0px;
 }
