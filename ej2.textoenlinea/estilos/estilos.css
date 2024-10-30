@@ -2,10 +2,50 @@ body{
   text-align: justify;  
 }
 
+@font-face{
+  font-family: "especial";
+  src: url("mystery-quest.woff2") 
+}
+
+p.fuentesweb{
+  font-family: "especial";
+  font-size: 100px;
+}
+
+span.minusculas{
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1{
+  text-shadow: red 5px -5px 4px;
+}
+
+p.parrafo1{
+  text-indent: 50px;
+  letter-spacing: 10px;
+}
+
 p.parrafo2{
     text-align: right;
+    line-height: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
 }
 
 p.parrafo3{
     text-align: center;
+    word-spacing: 35px;
+}
+
+span.barcelona{
+  text-decoration: overline;
+}
+
+span.reales{
+  text-decoration: underline;
+}
+
+p.parrafo0{
+  text-transform: capitalize;
 }

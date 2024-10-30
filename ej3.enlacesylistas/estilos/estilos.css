@@ -1,3 +1,30 @@
 p{
     color: red; 
  }
+
+
+ ul.listacompra{
+    list-style-type: none;
+ }
+
+ ul.listacompra2{
+    list-style-image: url("../img/smiley.png");
+ }
+
+ ul.menu{
+    list-style-type: none;
+    
+ li.submenu{
+    background-color: red;
+    color: white;
+    float: left;
+    width: 80px;
+    margin-right: 6px;
+    padding: 0 15px;
+    border: 3px black dotted;
+    text-align: center;
+ }
+
+ li.submenu:hover{
+    background-color: black;
+ }
