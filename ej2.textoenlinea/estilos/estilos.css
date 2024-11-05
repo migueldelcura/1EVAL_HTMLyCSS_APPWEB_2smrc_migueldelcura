@@ -1,15 +1,26 @@
 body{
   text-align: justify;  
+  background-color: red;
+  background-image: url("../img/tartan.png");
+  background-repeat: repeat;
+}
+
+hr{
+  width: 30%;
+  margin-left: 0;
+  height: 5px;
+  border-color: red;
+  background-color: yellow;
 }
 
 @font-face{
   font-family: "especial";
-  src: url("mystery-quest.woff2") 
+  src: url("RubikWetPaint-Regular.ttf") 
 }
 
 p.fuentesweb{
   font-family: "especial";
-  font-size: 100px;
+  font-size: 50px;
 }
 
 span.minusculas{
